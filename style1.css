@@ -1,0 +1,132 @@
+*{
+    margin: 10px;
+    padding: 2px;
+    font-family: "adobe-garamond-pro", Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+ letter-spacing: normal;
+ text-align: justify;
+}.question-answer {
+    display: none;
+  }
+  
+  .question.active .question-answer {
+    display: block;
+  }
+  
+
+header, .intro, footer {
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(images/pexels-aleksandar-pasaric-2603464.jpg) no-repeat center center fixed;
+background-size: cover;
+color: #f9faf8;
+display: flex;
+color: #F9FAF8;
+padding: 20px 0px 5px 5px;
+align-items: center;
+text-shadow: 0px 0px 5px rgb(239, 204, 204), 0px 0px 20px rgb(255, 232, 232), 0px 0px 40px white;
+}
+.slider-main .carousel .carousel-inner .carousel-item:before{
+	content: "";
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+    /* 
+    
+    
+    bar Part */
+    .header-logo img {
+       
+        margin-right: auto;
+    }
+    .clr {
+        clear:both;
+        padding:0;
+        margin:0;
+        width:100%;
+        font-size:0;
+        line-height:0;
+    }
+ 
+
+    li {
+        display: inline;
+        margin-right: 10px;}
+
+        li.coming-soon {
+        display: none;}
+        ul {
+            
+            padding: 15px;
+            margin: 0px auto 0px auto;
+            border-top: 2px solid#183668;
+            border-bottom: 2px solid #183668;
+            text-align: center;}
+            li {
+            display: inline;
+            margin: 0px 3px;}
+            p {
+            text-align: center;
+            width: 600px;
+            margin: 20px auto 20px auto;
+            font-weight: normal;}
+            body {line-height: 26px;
+                margin-bottom: 25px;
+    
+                font-family: Arial, Verdana, sans-serif;
+                color: #007dbc;}
+                h1 {
+                background-color:  #f2f2f2;
+                padding: 10px;}
+                p {
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 90%;
+        
+                    line-height: 26px;
+                    margin-bottom: 25px;
+                width: 450px;
+            }
+                .footer{
+                    font-size: 80%;
+                    padding: 7px 0px 0px 20px;}
+                    .dropdown-arrow {
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        border: 2px solid #555;
+                        border-radius: 50%;
+                        margin-left: 10px;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 16px;
+                        cursor: pointer;
+                        transition: transform 0.3s ease-in-out;
+                      }
+                      
+                      .dropdown-arrow:before {
+                        content: "+";
+                        display: block;
+                        transform: translateY(-1px);
+                      }
+                      
+                      .question.active .dropdown-arrow:before {
+                        content: "-";
+                      }                     
+                
+h3 {
+  color: #555;
+  line-height: 30px
+}
+h2 {
+  color: #555;
+  line-height: 30px;
+}
+                   
+#navigation {
+  color: #007dbc;
+}
+                
